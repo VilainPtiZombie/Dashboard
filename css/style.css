@@ -1,0 +1,321 @@
+/* ===== TITLES AND CARACTERS STYLES ===== */
+
+h1{margin: 0; font-size: 2.3em; line-height: 1.4; padding: 19px 0 20px 0; background: rgba(29,29,29,1); color: white;}
+h2{font-size: 1.9em;}
+h3{font-size: 1.65em;}
+h4{font-size: 1.45em;}
+h5{font-size: 1.25em; font-weight: 900;}
+i{font-style: italic;}
+p{font-size: 1.15em; font-weight: 500; line-height: 1.4;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+legend{font-size: 1em; margin-top: 6px;}
+.db_legend_color{color: rgba(180,211,136,1); font-size: 1em;}
+.owcs_txt_color{color: rgba(3,170,238,1);}
+.owcs_bg_color{background: rgba(3,170,238,1);}
+
+/* ===== CONNEXION PAGE ===== */
+#connexion h1{color: rgba(3,170,238,1);}
+#connexion form {margin-top: 160px;}
+#connexion input{display: block; width: 600px; height: 55px; margin: 0 auto; margin: 20px auto; padding: 20px; border-radius: 4.5px;}
+#connexion input[type=submit]{display: block; margin: 0 auto; width: 600px; height: 55px; margin-top: 25px; padding-bottom: 43px;}
+
+/* ===== TRAITEMENTS PAGE ===== */
+#traitements h1{color: rgba(3,170,238,1);}
+
+
+/* ===== MENU STYLES ===== */
+#menu_section{position: absolute; background: rgba(29,29,29,1); height: 1920px; width: 12%;}
+#menu{float: left;}
+#menu h2{margin-top: 0; padding-left: 20px; padding-top: 19px; line-height: 1.6; color: rgba(3,170,238,1);}
+#menu nav ul li{padding: 20px; color: white; font-weight: 600; font-size: 1.1em;}
+#menu nav ul li a{padding: 15px 150px 15px 0; color: white;}
+#menu nav ul li a:hover{color : rgba(15,120,237,1); transition: 0.5s ease-out;}
+button[name=deconnexion]{border-style: none; text-decoration-style: none; background: none; padding: 0;}
+button[name=deconnexion]:hover{color : rgba(15,120,237,1); transition: 0.5s ease-out;}
+
+
+/* ===== USER INFO BOXES STYLE ===== */
+#section_1{text-align: center;}
+#section_1 .container-fluid .row > div{background: rgba(3,170,238,1); padding: 20px; border: 1.5px solid white;}
+
+
+/* ===== DRIVE BUTTON ANIMATED STYLE ===== */
+#section_1 > div > div:nth-child(3) > div.drive_access{background: rgba(0,123,255,1); display: block; width: 100%; transition: 0.4s;}
+#section_1 > div > div:nth-child(3) > div.drive_access:hover{background: rgba(0,105,217,1); display: block; width: 100%;}
+.drive_access a{font-weight: 620; font-size: 1.25em; color: white;}
+.drive_access a:hover{color: white; transition: 0.4s ease-out;}
+
+
+/* ===== TABLE CLASSES #section_2 ===== */
+/*#section_2 .table legend{border-bottom: none;}
+#section_2 .table legend:nth-child(2){padding-right: 100px;}*/
+
+
+/* ===== ALERTS / ASSISTANCE (minichat) STYLE (index page) ===== */
+.alerts{border-right: 1px solid black;}
+.assistance textarea{width: 100%; height: 100px;}
+.assistance input[type=submit]{width: 100%; height: 60px;}
+.alert_msg{margin-top: -3px; margin-left: 25px; font-size: 1.05em; font-weight: 500;}
+.alert_object{margin-left: 10px;}
+
+
+/* ===== ADD USER BOX STYLE (backend/admin page) ===== */
+#section_admin_1 input, select{width: 49.2%; height: 40px; margin-top: 12px;}
+#section_admin_1 input[type=submit]{width: 100%; height: 55px;}
+
+
+/* ===== ALERTS STYLE (backend/admin page) ===== */
+div.alerts_admin{overflow: scroll; height: 400px;}
+
+/* ===== ACTIVE USERS BOXE STYLE (backend/admin page) ===== */
+div.active_users{height: 370px; overflow: scroll; z-index: -10}
+
+
+/* ===== CLICK BOXES (UPDATE VALUES BOXES) (backend/admin page) ===== */
+/* #section_admin_2 span a{padding: 20px 6px; border: 1px solid black; width: 300px;} */
+#section_admin_2 .span_infos a{border: 1px solid black; padding: 10px 25px;}
+
+
+/* ===== MINICHAT VIEW MESSAGES BOXE STYLE (index page) ===== */
+#section_2 div.minichat_messages{height: 350px; overflow: scroll;}
+
+
+/* ===== UPDATE MDP (backend/admin page) ===== */
+#update_mdp > div > div > form input{width: 100%; height: 40px; display: block; padding: 0 10px;}
+#update_mdp > div > div > form > select{width: 98%;}
+#update_mdp > div > div > form > div:nth-child(3) > div > input[type="submit"]{width: 100%;}
+
+
+/* ===== UPDATE VALUES PART (backend/admin page) ===== */
+.update_values{height: 300px; position: relative; display: none; opacity: 0;}
+.update_values form input{width: 100%; height: 40px; display: block; padding: 0 10px; margin-top: 4px;}
+.update_values form select{width: 100%; padding: 0 10px;}
+.update_values form input[type=submit]{width: 100%;}
+.show{display: block;}
+
+
+/* ===== DISPLAY / VISIBILITY CLASSES ===== */
+.hidden{visibility: hidden;}
+.visible{visibility: visible;}
+.none{opacity: 0; display: none;}
+.block{display: block; opacity: 1;}
+.active{display: block; opacity: 1;}
+
+
+/* ===== ALERT CREATOR (backend/admin page) ===== */
+#creator_alert > div > div > form > textarea{width: 100%; height: 150px; padding: 10px;}
+#creator_alert > div > div > form > select{width: 100%; margin-left: 0;}
+div.alert_box{padding-bottom: 16px;}
+
+/* ===== MINICHAT ANSWER BOX (backend/admin page) ===== */
+#answer_minichat > div > div > div:nth-child(1) > div > div > form > textarea{width: 100%; height: 150px; padding: 10px;}
+#answer_minichat > div > div > div:nth-child(1) > div > div > form > select{width: 100%; margin-left: 0;}
+
+
+/* ===== MINICHAT ANSWER FORM 2 ===== */
+#minichat_answer_form select{width: 100%; padding: 0 10px;}
+#minichat_answer_form textarea{width: 100%; height: 200px; padding: 10px; margin-top: 12px;}
+#minichat_answer_form input{width: 100%; height: 55px; margin-bottom: 40px;}
+div.minichat_answer_form{padding-right: 35px;}
+
+
+/* ===== BORDERS ADMIN PAGE ===== */
+#section_admin_1 > div > div > div:nth-child(2) {border-left: 1px solid black;}
+#section_admin_2 > div > div > div:nth-child(2) {border-left: 1px solid black;}
+#section_3_admin > div > div > div:nth-child(2) {border-left: 1px solid black; margin-left: -6px; padding-left: 15px;}
+
+
+/* ===== PHP MESSAGES STYLE ===== */
+.msg_php{font-weight: 550; font-size: 1.075em;}
+.centered_msg_php{margin-top: 20px; text-align: center; font-size: 1.075em; font-weight: 550;}
+
+
+/* ===== TABLES STYLE ===== */
+table{width: 100%;}
+table tr{margin-top: 0px;}
+table tr th{font-weight: 600; font-size: 1.08em; text-align: left; padding-bottom: 10px;}
+table tr td{vertical-align: middle; margin-top: 30px; width: 200px; padding-right: 10px; border-bottom: 1px solid black; border-top: 1px solid black; padding-top: 10px; padding-bottom: 10px;}
+.table th, .table td{vertical-align: middle;}
+
+
+.ml12p{margin-left: 12%;}
+#menu_icon{color: white; position: absolute; top: 15px; left: 15px;}
+
+/* ===== ALERT_VALIDATION INPUT STYLE (backend page) ===== */
+#alert_validation_form input[type=checkbox]{display: inline; transform: scale(2); width: 30px; margin-left: 20px;}
+#alert_validation_form input[type=submit]{display: inline-block; width: 100px; height: 45px;}
+
+/* SERVER TABLES */
+#serv_managment > div > div > div:nth-child(1) > table > thead > tr > th:nth-child(2) {padding-left: 25%}
+
+
+/* ===== CLASSES DONE (alerts) ===== */
+.undone{border: 1.5px solid red;}
+.done{border: 1.5px solid green;}
+.done_table{color: green;}
+.undone_table{color: red;}
+.done_table td{color: white; background: green; font-size: 1em; border-bottom: 1px solid black;}
+
+
+/* ===== SERVER MANAGMENT CLASSES ===== */
+#title_serv_managment > div{border: 3px solid white;}
+
+#server_managment_1 form input {width: 49.5%; height: 40px; margin-top: 12px;}
+#server_managment_1 form input[type=submit] {width: 100%; height: 55px;}
+div.serv_managment, div.ip_managment{height: 430px; overflow: scroll;}
+#serv_managment > div > div > div:nth-child(1){border-right: 1px solid black;}
+#server_managment_1 > div > div > div:nth-child(1){border-right: 1px solid black;}
+#ip_table > thead > tr > th:nth-child(2):nth-child(3){padding-left: 18%;}
+.server_form input{padding: 15px;}
+
+.table-header p{font-size: 1.1em; font-weight: 600;}
+
+.mtlR{margin-top: 0;}
+form input{padding: 10px;}
+
+/* ===== SEARCH INPUTS ===== */
+.search_input{height: 45px; border-radius: 5px; text-decoration-style: none; outline-style: none; transition: 0.4s; background: rgba(0,123,255,0.3);}
+.search_input:focus{transform: scale(1.02);}
+.search_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.search_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.search_input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+
+.chart{width: 100%; min-height: 350px;}
+.graph{transition: 0.4s;}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 1450px){
+    /* #menu_section{visibility: hidden;} */
+    .ml12p{margin-left: 0;}
+    #menu_icon{visibility: visible; z-index: 300}
+    #mobile_menu .hidden{visibility: visible;}
+    #menu_section{display: block; position: absolute; top: 0; left: 0; height: 0; width: 200px; background: rgba(29,29,29,1); z-index: 50; overflow: hidden;}
+    #minichat_answer_form input{width: 100%;}
+    #section_3_admin > div > div > div:nth-child(2) {margin-left: -7px;}
+    #section_admin_2 .span_infos a{padding: 10px 15px;}
+    .mtl_r{margin-top: 60px;}
+    .mtl_m{margin-top: 50px;}
+}
+
+@media screen and (max-width: 990px) {
+    #serv_managment legend{margin-bottom: 60px;}
+    #serv_managment > div > div > div:nth-child(2){margin-top: 60px;}
+    .mtl_r1000{margin-top: 60px;}
+    #section_admin_1 > div > div > div:nth-child(2){border-left: 0;}
+    #section_3_admin > div > div > div:nth-child(2){border-left: 0;}
+    #serv_managment > div > div > div:nth-child(1){border-right: 0;}
+    #server_managment_1 > div > div > div:nth-child(1){border-right: 0;}
+    .tac_r{text-align: center;}
+}
+@media screen and (max-width: 700px) {
+    #serv_managment legend{margin-bottom: 60px;}
+    #server_managment_1 > div > div > div.col-lg-6.serv_managment > h3{margin-top: 60px;}
+    #server_managment_1 form input {width: 100%;}
+    .update_buttons{display: block; width: 100%; text-align: center;}
+    .span_infos a{display: block; padding: 25px 15px;}
+}
+
+@media screen and (max-width: 400px) {
+    #section_admin_1 input, select{display: block; width: 100%;}
+}
+
+
+
+#box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#box.black {
+    background: #000; border: 1px solid black;
+}
+
+#box.red {
+    background: #ff0000;
+}
+
+
+/* ===== ANALYTICS PAGE ===== */
+
+
+
+html.touch input, html.touch select, html.touch textarea{border: 1px dotted black;}
+
+/* ===== MARGIN / PADDING CLASSES ===== */
+.man{margin:0px;}
+.mas{margin:20px;}
+.mam{margin:40px;}
+.mal{margin:60px;}
+.pan{padding:0px;}
+.pas{padding:20px;}
+.pam{padding:40px;}
+.pal{padding:60px;}
+
+.mtn{margin-top:0px;}
+.mts{margin-top:20px;}
+.mtm{margin-top:40px;}
+.mtl{margin-top:60px;}
+.ptn{padding-top:0px;}
+.pts{padding-top:20px;}
+.ptm{padding-top:40px;}
+.ptl{padding-top:60px;}
+
+.mrn{margin-right:0px;}
+.mrs{margin-right:20px;}
+.mrm{margin-right:40px;}
+.mrl{margin-right:60px;}
+.prn{padding-right:0px;}
+.prxs{padding-right: 10px;}
+.prs{padding-right:20px;}
+.prm{padding-right:40px;}
+.prl{padding-right:60px;}
+
+.mbn{margin-bottom:0px;}
+.mbs{margin-bottom:20px;}
+.mbm{margin-bottom:40px;}
+.mbl{margin-bottom:60px;}
+.pbn{padding-bottom:0px;}
+.pbs{padding-bottom:20px;}
+.pbm{padding-bottom:40px;}
+.pbl{padding-bottom:60px;}
+.pbxl{padding-bottom: 100px;}
+
+.mln{margin-left:0px;}
+.mls{margin-left:20px;}
+.mlm{margin-left:40px;}
+.mll{margin-left:60px;}
+.pln{padding-left:0px;}
+.pls{padding-left:20px;}
+.plm{padding-left:40px;}
+.pll{padding-left:60px;}
+
+.tac{text-align: center;}
+
+.ptxs{padding-top: 10px;}
+.mtxs{margin-top: 10px;}
+.mtxm{margin-top: 30px;}
+.mtmx{margin-top: 50px;}
+.mtxl{margin-top: 100px;}
+.mbxs{margin-bottom: 10px;}
+.mbxm{margin-bottom: 30px;}
+.mbmx{margin-bottom: 50px;}
+.mbxl{margin-bottom: 100px;}
+
+.ptxm{padding-top: 30px;}
+.pbxm{padding-bottom: 30px;}
+
+.vide{display: none;}
+
+
